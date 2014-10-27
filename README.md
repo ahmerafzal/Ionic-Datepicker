@@ -8,7 +8,8 @@ In this Datepicker i am using the ionic popup to show datepicker fields and butt
 <code>&lt;input type="text" ng-click="DatePicker($event)" readonly /&gt;&lt;</code>
 
 <h2>Place this script in your controller</h2>
-<code>$scope.DatePicker = function(e) {
+```javascript
+$scope.DatePicker = function(e) {
 		$model = $(e.target).attr('ng-model');
 		$value = $(e.target).val();
 		$scope.data = {}
@@ -142,4 +143,5 @@ In this Datepicker i am using the ionic popup to show datepicker fields and butt
 			$selectedDate = res.pickup_date+"/"+res.pickup_month+"/"+res.pickup_year;
 			putObject($model, $scope, $selectedDate);
 		  });
-		 };</code>
+		 };
+	```
