@@ -1,13 +1,14 @@
-Ionic-Datepicker
-================
 
-Ionic / AngularJS Datepicker
+<h1>Ionic / AngularJS Datepicker</h1>
+In this Datepicker i am using the ionic popup to show datepicker fields and buttons for selecting date
 
-// implement this input in your template file
-<input type="text" ng-click="DatePicker($event)" readonly />
 
-// Place this script in your controller
-$scope.DatePicker = function(e) {
+
+<h2>Implement this input in your template file</h2>
+<code><input type="text" ng-click="DatePicker($event)" readonly /></code>
+
+<h2>Place this script in your controller</h2>
+<code>$scope.DatePicker = function(e) {
 		$model = $(e.target).attr('ng-model');
 		$value = $(e.target).val();
 		$scope.data = {}
@@ -142,4 +143,4 @@ $scope.DatePicker = function(e) {
 			$selectedDate = res.pickup_date+"/"+res.pickup_month+"/"+res.pickup_year;
 			putObject($model, $scope, $selectedDate);
 		  });
-		 };
+		 };</code>
