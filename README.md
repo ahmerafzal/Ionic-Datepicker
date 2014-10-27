@@ -103,8 +103,8 @@ $scope.DatePicker = function(e) {
 		
 		$template = '<div class="row">';
 		$template += '<div class="col"><button on-hold="pickerDate('+"'add'"+')" ng-click="pickerDate('+"'add'"+')" class="button button-block button-positive icon ion-ios7-arrow-up"></button><input type="text" readonly ng-model="data.pickup_date"><button  ng-click="pickerDate('+"'minus'"+')" class="button button-block button-positive icon ion-ios7-arrow-down"></button></div>';
-		$template += '<div class="col"><button ng-click="pickerMonth('+"'add'"+')" class="button button-block button-positive icon ion-ios7-arrow-up"></button><input type="text" ng-model="data.pickup_month"><button ng-click="pickerMonth('+"'minus'"+')" class="button button-block button-positive icon ion-ios7-arrow-down"></button></div>';
-		$template += '<div class="col"><button ng-click="pickerYear('+"'add'"+')" class="button button-block button-positive icon ion-ios7-arrow-up"></button><input type="text" ng-model="data.pickup_year"><button ng-click="pickerYear('+"'minus'"+')" class="button button-block button-positive icon ion-ios7-arrow-down"></button></div>';
+		$template += '<div class="col"><button ng-click="pickerMonth('+"'add'"+')" class="button button-block button-positive icon ion-ios7-arrow-up"></button><input type="text" readonly ng-model="data.pickup_month"><button ng-click="pickerMonth('+"'minus'"+')" class="button button-block button-positive icon ion-ios7-arrow-down"></button></div>';
+		$template += '<div class="col"><button ng-click="pickerYear('+"'add'"+')" class="button button-block button-positive icon ion-ios7-arrow-up"></button><input type="text" readonly ng-model="data.pickup_year"><button ng-click="pickerYear('+"'minus'"+')" class="button button-block button-positive icon ion-ios7-arrow-down"></button></div>';
 		$template += '</div>';
 		  // An elaborate, custom popup
 		  var myPopup = $ionicPopup.show({
