@@ -1,3 +1,4 @@
+// implement this input in your template file
 <input type="text" ng-click="DatePicker($event)" readonly />
 
 // Place this script in your controller
