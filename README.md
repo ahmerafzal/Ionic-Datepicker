@@ -1,7 +1,7 @@
 
 <h1>Ionic / AngularJS Datepicker</h1>
 In this Datepicker i am using the ionic popup to show datepicker fields and buttons for selecting date
-<br />
+<br /><br />
 ![Alt text](https://raw.githubusercontent.com/ahmerafzal/Ionic-Datepicker/master/picker.png "Ionic Datepicker")
 
 
