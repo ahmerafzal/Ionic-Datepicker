@@ -147,4 +147,4 @@ $scope.DatePicker = function(e) {
 			putObject($model, $scope, $selectedDate);
 		  });
 		 };
-	```
+	
