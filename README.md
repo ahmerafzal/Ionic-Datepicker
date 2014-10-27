@@ -5,7 +5,7 @@ In this Datepicker i am using the ionic popup to show datepicker fields and butt
 
 
 <h2>Implement this input in your template file</h2>
-<code>&lt;input type="text" ng-click="DatePicker($event)" readonly /&gt;&lt;/code&gt;
+<code>&lt;input type="text" ng-click="DatePicker($event)" readonly /&gt;&lt;</code>
 
 <h2>Place this script in your controller</h2>
 <code>$scope.DatePicker = function(e) {
