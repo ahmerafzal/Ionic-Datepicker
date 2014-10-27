@@ -12,7 +12,6 @@ In this Datepicker i am using the ionic popup to show datepicker fields and butt
 		$model = $(e.target).attr('ng-model');
 		$value = $(e.target).val();
 		$scope.data = {}
-		 
 		function daysInMonth(month,year) {
 			return new Date(year, month, 0).getDate();
 		}
